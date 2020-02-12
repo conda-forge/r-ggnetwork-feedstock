@@ -1,7 +1,7 @@
 About r-ggnetwork
 =================
 
-Home: https://CRAN.R-project.org/package=ggnetwork
+Home: https://github.com/briatte/ggnetwork
 
 Package license: GPL-3
 
