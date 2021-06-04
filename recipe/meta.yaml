@@ -1,4 +1,4 @@
-{% set version = '0.5.8' %}
+{% set version = "0.5.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnetwork_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnetwork/ggnetwork_{{ version }}.tar.gz
-  sha256: a8c7c19a2bafce898c95d0b2401ef052925db57b85058c7203f0122b3af7bbbd
+  sha256: a4529af09da92f024b8c962b6e8efd53624163182ccba75028b472dca11541eb
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -49,7 +49,7 @@ about:
   summary: Geometries to plot network objects with 'ggplot2'.
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
