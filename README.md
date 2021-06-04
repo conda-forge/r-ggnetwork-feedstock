@@ -3,7 +3,7 @@ About r-ggnetwork
 
 Home: https://github.com/briatte/ggnetwork
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggnetwork-feedstock/blob/master/LICENSE.txt)
 
