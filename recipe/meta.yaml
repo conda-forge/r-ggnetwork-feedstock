@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://github.com/briatte/ggnetwork
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Geometries to plot network objects with 'ggplot2'.
   license_family: GPL3
   license_file:
