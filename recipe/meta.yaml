@@ -1,4 +1,4 @@
-{% set version = "0.5.9" %}
+{% set version = "0.5.10" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnetwork_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnetwork/ggnetwork_{{ version }}.tar.gz
-  sha256: a4529af09da92f024b8c962b6e8efd53624163182ccba75028b472dca11541eb
+  sha256: 1b655dbab8eed8d0aa3ab2148aac8e0e5bfa190468f5e3c06b001ce88b7f0d3f
 
 build:
   merge_build_host: true  # [win]
