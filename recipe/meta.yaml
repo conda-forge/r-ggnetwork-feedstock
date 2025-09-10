@@ -1,4 +1,4 @@
-{% set version = "0.5.13" %}
+{% set version = "0.5.14" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggnetwork_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggnetwork/ggnetwork_{{ version }}.tar.gz
-  sha256: 6c297ead19dbd89de3278f3705410b757f2d9744bc466d8175105833a4e1fd46
+  sha256: caab79d85a817608e9a9d827783f157393fc3f2b9de8c20669699175a19f3ff0
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
